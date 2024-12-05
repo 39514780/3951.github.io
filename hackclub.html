@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack Club Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(90deg, rgb(248, 255, 123) 0%,  rgb(71, 169, 255) 100%);
+            display: flex;
+            align-items: flex-start; /* Align all content to top */
+        }
+
+        #name {
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-size: 50px;
+            margin-top: 0;
+            padding-left: 35%;
+        }
+
+        #aboutme {
+            color: rgb(0, 0, 0);
+            font-size: 50px;
+            align-self: flex-start;
+            margin-top: 0; 
+        }
+
+        .half {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 5%; 
+            padding-left: 15%;
+        }
+
+
+        #photo{
+            margin-left: 8%;
+            width: 600px;
+            height: 700px;
+            border-radius: 50px;
+            margin-right: 5%;
+        }
+        .me{
+            margin-top: 5%;
+            display: flex;
+            font-size: 30px;
+            flex-direction: column;
+            padding-left: 10%;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(0, 0, 0);
+        }
+        
+        li{
+            list-style-type: circle;
+            padding-bottom: 5%;
+        }
+        #contact{
+            width: 300px;
+            height: 100px;
+            margin-top: 5%;
+            border-color: rgb(185, 197, 255);
+            background-color: rgb(185, 197, 255);
+            padding: 10px;
+            font-size: 40px;
+            border-radius: 70px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        #contact:hover{
+            background-color: rgb(155, 169, 238);
+            border-color: rgb(155, 169, 238);
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        }
+
+        #code{
+            width: 700px;
+            margin-bottom: 15%;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class = "half">
+    <h1 id = "name">Lindsey Luo</h1> 
+        <div><img src = "images/me.jpg" id = "photo"></div>
+    </div>
+    <div class="me">
+        <h2 id = "aboutme">About Me</h2>
+        
+            <ul>
+                <li>I am currently a junior at Irvington High School</li>
+                <li>I have learned HTML</li>
+                <li>I have learned CSS</li>
+                <li>I do not know JavaScript</li>
+            </ul>
+            <h2>Projects</h2>
+            <ul>
+                <li>I worked on a Hack Club project in 2022 (Data Science website)</li>
+                <li>I have made many small practice websites</li>
+            </ul>
+            <img src = "images/vscode.png" id = "code">
+        </div>
+        
+        <a href= contactme.html target="_blank" rel="noopener noreferrer"><button id = "contact">Contact Info</button></a>
+        
+        
+    
+    
+</body>
+</html>
